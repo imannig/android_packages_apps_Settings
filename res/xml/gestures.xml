@@ -97,9 +97,6 @@
         android:key="gesture_prevent_ringing_summary"
         android:title="@string/gesture_prevent_ringing_screen_title"
         android:fragment="com.android.settings.gestures.PreventRingingGestureSettings"
-<<<<<<< HEAD
-        settings:controller="com.android.settings.gestures.PreventRingingParentPreferenceController" />    
-=======
         settings:controller="com.android.settings.gestures.PreventRingingParentPreferenceController" />
 
     <com.cafex.support.preference.SystemSettingSwitchPreference
@@ -107,6 +104,3 @@
         android:title="@string/three_finger_gesture"
         android:summary="@string/three_finger_gesture_summary"
         android:defaultValue="true" />
-                
->>>>>>> 18c6872ba6 (Add three-fingers-swipe to screenshot [2/2])
-</PreferenceScreen>
